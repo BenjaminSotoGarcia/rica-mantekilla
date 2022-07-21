@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Rica Mantekilla</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -38,27 +39,27 @@
             </nav>
         </header>
 
-        <h1 class="subtitulo">
+        <h1 class="subtitulo" data-aos="flip-up">
             100% Vegano 
         </h1> 
 
 
-        <div class="mantekilla1 estiloMantekilla">
+        <div class="mantekilla1 estiloMantekilla" data-aos="fade-right">
             <p>Mantekilla de Maní Tradicional</p>
             <img src="./images/tradicional.jpg" alt="Mantequilla de maní Tradicional">
         </div>
 
-        <div class="mantekilla2 estiloMantekilla">  <!-- NO TENGO FOTO TODAVIA DE ESTA MANTEQUILLA -->
+        <div class="mantekilla2 estiloMantekilla" data-aos="fade-left">  <!-- NO TENGO FOTO TODAVIA DE ESTA MANTEQUILLA -->
             <p>Mantekilla de Maní Crunchy</p>
             <img src="./images/tradicional.jpg" alt="Mantequilla de maní Crunchy"> 
         </div>
 
-        <div class="mantekilla3 estiloMantekilla">
+        <div class="mantekilla3 estiloMantekilla" data-aos="fade-right">
             <p>Mantekilla de Maní + Oreo</p>
             <img src="./images/oreo.jpg" alt="Mantequilla de maní más Oreo">
         </div>
 
-        <div class="mantekilla4 estiloMantekilla">
+        <div class="mantekilla4 estiloMantekilla" data-aos="fade-left">
             <p>Mantekilla de Maní Chocolate</p>
             <img src="./images/chocolate.jpg" alt="Mantequilla de maní Chocolate">
         </div>
@@ -87,6 +88,10 @@
                 </ul>
             </nav>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
     </div>
 </body>
