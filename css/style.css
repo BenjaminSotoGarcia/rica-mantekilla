@@ -14,10 +14,10 @@ COLORES:
 */
 .grilaGeneral{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "header header"
-    "subtitulo1 subtitulo2"
+    "subtitulo subtitulo"
     "mantekilla1 mantekilla2"
     "mantekilla3 mantekilla4"
     "footer footer";
@@ -39,10 +39,6 @@ header{
     background-color: #FFC85C;
 }
 
-.logo{
-    margin-left: 50px;
-}
-
 .menuHeader{
     display: flex;
     flex-direction: row;
@@ -53,7 +49,7 @@ header{
 
 .menuHeader li, footer li{
     list-style-type: none;
-    margin: 0px 20px;
+    margin: 0px 8px;
 }
 
 .menuHeader li a, footer li a{
@@ -61,17 +57,9 @@ header{
     color: #59886B;
 }
 
-.primerSubtitulo{
-    grid-area: subtitulo1;
-    text-align: left;
-    margin: 0px 20px ;
-    font-family: 'Crete Round', serif;
-}
-
-.segundoSubtitulo{
-    grid-area: subtitulo2;
-    text-align: left;
-    margin: 0px 20px ;
+.subtitulo{
+    grid-area: subtitulo;
+    text-align: center;
     font-family: 'Crete Round', serif;
 }
 
@@ -115,4 +103,34 @@ footer nav ul{
     align-items: center;
     font-family: 'Secular One', sans-serif;
 }
+@media (max-widht: 992px){
+    .grilaGeneral{
+        grid-template-areas: 
+        "header header"
+        "subtitulo subtitulo"
+        "mantekilla1 mantekilla2"
+        "mantekilla3 mantekilla4"
+        "footer footer";
+    }
+    header{
+        height: auto;
+    }
+}
 
+/* ESTE QUEDA MAL PORQUE NO SE VE LA BARRA Y NO SE COMO SE PONE AL LADO LA BARRA */
+@media (max-widht: 576px) {
+    .grilaGeneral{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "subtitulo"
+        "mantekilla1"
+        "mantekilla2"
+        "mantekilla3"
+        "mantekilla4"
+        "footer";
+    }
+    header{
+        height: auto;
+    }
+}
