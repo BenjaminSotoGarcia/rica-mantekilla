@@ -10,8 +10,9 @@ FUENTES:
 font-family: 'Secular One', sans-serif;
 font-family: 'Crete Round', serif;
 COLORES: 
-
 */
+
+/*  
 .grilaGeneral{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,12 +24,12 @@ COLORES:
     "footer footer";
     gap: 15px;
 }
-
+*/
 body{
     background-color: #FFF8C1;
 }
-
-header{
+/*  
+header{ 
     grid-area: header;
     display: flex;
     flex-direction: row;
@@ -38,12 +39,11 @@ header{
     height: 150px;
     background-color: #FFC85C;
 }
-
+*/
+.amarillo{
+    background-color: #FFC85C;
+}
 .menuHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     font-family: 'Secular One', sans-serif;
 }
 
