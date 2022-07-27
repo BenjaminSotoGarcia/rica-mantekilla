@@ -12,6 +12,51 @@ font-family: 'Crete Round', serif;
 COLORES: 
 */
 
+body{
+    background-color: #FFF8C1;
+}
+
+.amarillo{
+    background-color: #FFC85C;
+}
+
+.menuHeader{
+    font-family: 'Secular One', sans-serif;
+} 
+
+#barra{
+    color: #59886B;
+}
+footer{
+    grid-area: footer;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC85C
+    
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 19px;
+}
+
+footer li{
+    list-style-type: none;
+    margin: 0px 8px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #59886B;
+}
 /*  
 .grilaGeneral{
     display: grid;
@@ -25,9 +70,7 @@ COLORES:
     gap: 15px;
 }
 */
-body{
-    background-color: #FFF8C1;
-}
+
 /*  
 header{ 
     grid-area: header;
@@ -40,13 +83,7 @@ header{
     background-color: #FFC85C;
 }
 */
-.amarillo{
-    background-color: #FFC85C;
-}
-.menuHeader{
-    font-family: 'Secular One', sans-serif;
-}
-
+/*  
 .menuHeader li, footer li{
     list-style-type: none;
     margin: 0px 8px;
@@ -103,6 +140,8 @@ footer nav ul{
     align-items: center;
     font-family: 'Secular One', sans-serif;
 }
+
+
 @media (max-widht: 992px){
     .grilaGeneral{
         grid-template-areas: 
@@ -116,8 +155,9 @@ footer nav ul{
         height: auto;
     }
 }
+*/ 
 
-/* ESTE QUEDA MAL PORQUE NO SE VE LA BARRA Y NO SE COMO SE PONE AL LADO LA BARRA */
+/* ESTE QUEDA MAL PORQUE NO SE VE LA BARRA Y NO SE COMO SE PONE AL LADO LA BARRA 
 @media (max-widht: 576px) {
     .grilaGeneral{
         grid-template-columns: 1fr;
@@ -134,3 +174,4 @@ footer nav ul{
         height: auto;
     }
 }
+*/

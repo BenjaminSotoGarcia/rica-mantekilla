@@ -20,14 +20,13 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end m-5" id="navbarNavAltMarkup">
                     <div class="navbar-nav menuHeader">
                         <a class="nav-link active" aria-current="page" href="./index.html">INCIO</a>
                         <a class="nav-link active" href="./sections/productos.html">PRODUCTOS</a>
                         <a class="nav-link active" href="./sections/promociones.html">PROMOCIONES</a>
                         <a class="nav-link active" href="./sections/recetas.html">RECETAS</a>
                         <a class="nav-link active" href="./sections/nosotros.html">NOSOTROS</a>
-                        <a class="nav-link active" href="./sections/contacto.html">CONTACTO</a>
                     </div>
                 </div>
                 </div>
@@ -38,27 +37,69 @@
             100% Vegano 
         </h1> 
 
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/carruselTradi.jpg" class="d-block w-100" alt="mantekilla tradicional">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carruselOreo.jpg" class="d-block w-100" alt="mantekilla oreo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carruselCrun.jpg" class="d-block w-100" alt="mantekilla crunchy">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carruselChoco.jpg" class="d-block w-100" alt="mantekilla chocolate">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
-        <div class="mantekilla1 estiloMantekilla">
-            <p>Mantekilla de Maní Tradicional</p>
-            <img src="./images/tradicional.jpg" alt="Mantequilla de maní Tradicional">
-        </div>
 
-        <div class="mantekilla2 estiloMantekilla">  <!-- NO TENGO FOTO TODAVIA DE ESTA MANTEQUILLA -->
-            <p>Mantekilla de Maní Crunchy</p>
-            <img src="./images/tradicional.jpg" alt="Mantequilla de maní Crunchy"> 
-        </div>
 
-        <div class="mantekilla3 estiloMantekilla">
-            <p>Mantekilla de Maní + Oreo</p>
-            <img src="./images/oreo.jpg" alt="Mantequilla de maní más Oreo">
-        </div>
 
-        <div class="mantekilla4 estiloMantekilla">
-            <p>Mantekilla de Maní Chocolate</p>
-            <img src="./images/chocolate.jpg" alt="Mantequilla de maní Chocolate">
-        </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         <footer>
             <nav>
                 <ul>
@@ -77,12 +118,8 @@
                     <li>
                         <a href="./sections/nosotros.html">NOSOTROS</a>
                     </li>
-                    <li>
-                        <a href="./sections/contacto.html">CONTACTO</a>
-                    </li>
                 </ul>
             </nav>
-            
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </div>
