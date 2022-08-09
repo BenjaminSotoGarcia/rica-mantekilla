@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+.subtitulo, .subtitulo3, .subtitulo2 {
+  text-align: center;
+  font-family: "Crete Round", serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,11 +21,6 @@ header .amarillo {
 }
 header .menuHeader {
   font-family: "Secular One", sans-serif;
-}
-
-.subtitulo {
-  text-align: center;
-  font-family: "Crete Round", serif;
 }
 
 footer {
@@ -49,7 +50,12 @@ footer ul li a {
 }
 
 .losProductos {
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.lasPromos {
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
