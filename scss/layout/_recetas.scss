@@ -1,3 +1,10 @@
-.lasRecetas{
-    @include medidas;
+.cardRecetas{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.recetasPading{
+    padding: 1%;
+}
+.interiorRecetas{
+    @include colorcard;
 }

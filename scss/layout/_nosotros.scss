@@ -1,8 +1,34 @@
-.nosotros{
-    @include medidas;
-    text-align: center;
+.formularioNosotros{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
-.contNosotros{
-    @include medidas;
-    text-align: center;
+.interiorNosotrosFormulario{
+    @include colorcard;
+    padding: 2%;
+}
+.objetivosNosotros{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.objetivosMision{
+    padding-top: 2%;
+}
+
+
+.redesSociales{
+    @extend.objetivosNosotros
+}
+
+.redesFacebook{
+    padding-top: 2%;
+}
+.terminosNosotros{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 4%;
 }

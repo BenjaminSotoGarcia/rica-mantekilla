@@ -1,11 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
-.subtitulo, .subtitulo3, .subtitulo2 {
-  text-align: center;
-  font-family: "Crete Round", serif;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,67 +7,141 @@
 }
 
 body {
-  background-color: #FFF8C1;
+  background-color: #FFF9CA;
 }
 
-header .amarillo {
+.fondoHeader {
+  background-color: #FFC85C;
+  font-family: "Acme", sans-serif;
+}
+
+.fondoFooter {
   background-color: #FFC85C;
 }
-header .menuHeader {
-  font-family: "Secular One", sans-serif;
+
+.tituloFooter {
+  font-family: "Acme", sans-serif;
 }
 
-footer {
-  width: 100%;
-  height: 140px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #FFC85C;
-}
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-family: "Secular One", sans-serif;
-  margin-top: 19px;
-}
-footer ul li {
-  list-style-type: none;
-  margin: 0px 8px;
-}
-footer ul li a {
-  text-decoration: none;
-  color: #59886B;
+.subtitutloFooter {
+  font-family: "Signika Negative", sans-serif;
 }
 
-.losProductos {
-  padding-top: 40px;
-  padding-bottom: 20px;
+.cardProductos {
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 
-.lasPromos {
-  padding-top: 40px;
-  padding-bottom: 20px;
+.productospading {
+  padding: 10px;
 }
 
-.nosotros {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  text-align: center;
+.interiorProductos {
+  background-color: #CCD6A6;
 }
 
-.contNosotros {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  text-align: center;
+.subtituloProductos {
+  padding-left: 6%;
+  padding-top: 2%;
 }
 
-.lasRecetas {
-  padding-top: 40px;
-  padding-bottom: 20px;
+.cardPromociones {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.promocionesPading {
+  padding: 30px;
+}
+
+.interiorPromociones {
+  background-color: #CCD6A6;
+}
+
+.subtituloPromociones {
+  padding-left: 6%;
+  padding-top: 2%;
+}
+
+.formularioNosotros {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.interiorNosotrosFormulario {
+  background-color: #CCD6A6;
+  padding: 2%;
+}
+
+.objetivosNosotros, .redesSociales {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.objetivosMision {
+  padding-top: 2%;
+}
+
+.redesFacebook {
+  padding-top: 2%;
+}
+
+.terminosNosotros {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1%;
+  padding-bottom: 4%;
+}
+
+.cardRecetas {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.recetasPading {
+  padding: 1%;
+}
+
+.interiorRecetas {
+  background-color: #CCD6A6;
+}
+
+.textoPrincipal {
+  font-family: "Acme", sans-serif;
+}
+
+.textoSecundario {
+  font-family: "Signika Negative", sans-serif;
+}
+
+.cardPromocionesIndex {
+  margin-bottom: 1%;
+}
+
+.promocionespadingIndex {
+  padding: 40px;
+}
+
+.interiorPromocionesIndex {
+  background-color: #CCD6A6;
+}
+
+.cardProductosIndex {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.interiorProductosIndex {
+  background-color: #CCD6A6;
+}
+
+.subtituloIndex {
+  padding-left: 6%;
+  padding-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */

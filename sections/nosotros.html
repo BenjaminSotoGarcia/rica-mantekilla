@@ -1,4 +1,3 @@
-<!-- PREGUNTAR COMO DEJAR EL FOOTER ABAJO SI ES QUE NO TENGO MÁS INFORMACION -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,77 +7,195 @@
     <meta name="keywords" content="Misión, Visión, Objetivos, Redes Sociales">
     <meta name="description" content="Encuentranos en todas nuestras Redes Sociales y conoce más de nosotros">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Nosotros</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light amarillo">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../images/logo.jpg" alt="" class="w-75">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse justify-content-end m-5" id="navbarNavAltMarkup">
-                <div class="navbar-nav menuHeader">
-                    <a class="nav-link active" aria-current="page" href="../index.html">INCIO</a>
-                    <a class="nav-link active" href="./productos.html">PRODUCTOS</a>
-                    <a class="nav-link active" href="./promociones.html">PROMOCIONES</a>
-                    <a class="nav-link active" href="./recetas.html">RECETAS</a>
-                    <a class="nav-link active" href="./nosotros.html">NOSOTROS</a>
+    <div class="grillaNosotros"> 
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fondoHeader">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../images/logoooo.jpg" alt="" width="200px" height="90px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end fondoHeader" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RICA MANTEKILLA</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./productos.html">PRODUCTOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./promociones.html">PROMOCIONES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./recetas.html">RECETAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./nosotros.html">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <img src="../images/carrito.png" alt="compras">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <form class="formularioNosotros">
+                    <div class="interiorNosotrosFormulario" data-aos="zoom-in">
+                        <div class="mb-3">
+                            <p class="h5 textoPrincipal">Unete a la Comunidad de Rica Mantekilla</p>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label textoSecundario">Mail</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label textoSecundario">Contraseña</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3">
+                            </div>
+                        </div>
+                        <fieldset class="row mb-3">
+                            <div class="col-sm-10 offset-sm-2">
+                                <div class="form-check textoSecundario">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Recibir Novedades de la Comunidad
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 offset-sm-2">
+                                <div class="form-check textoSecundario">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Recibir Promociones y Productos Destacados
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 offset-sm-2">
+                                <div class="form-check textoSecundario">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Recibir Recetas Deliciosas
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <button type="button" class="btn btn-outline-success textoPrincipal">REGISTRARSE</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <section>
+            <div class="redesSociales">
+                <div>
+                    <p class="h3 textoPrincipal">Redes Sociales</p>
+                </div>
+                <div> 
+                    <img src="../images/instagram.png" alt="instagram">
+                    <a class="text-decoration-none text-black textoSecundario" href="#">Instagram</a> 
+                </div>
+                <div class="redesFacebook"> 
+                    <img src="../images/facebook.png" alt="Facebook">
+                    <a class="text-decoration-none text-black textoSecundario" href="#">Facebook</a>
                 </div>
             </div>
-            </div>
-        </nav>
-    </header>
-    <main>
+        </section> 
+
         <section>
-            <h2 class="nosotros">
-                MISIÓN
-                <h5 class="contNosotros">
-                    Buscamos contribuir a una vida mas saludable y conciente y al alcance de todos, respetando y cuidando las diversas formas de vida de nuestro ecosistema al ofrecer productos libres de cualquier tipo de crueldad animal y evitando el uso de plasticos contaminantes para el planeta.
-                </h5>
-            </h2>
-            <h2 class="nosotros">
-                VISIÓN
-                <h5 class="contNosotros">
-                    Buscamos posicionarnos como líder en mantequillas de maní, que produzca un ejemplo modelo sobre la producción sostenible de alimentos. Asimismo, impactar en los hogares en el mejoramiento de hábitos alimenticios con productos sin origen animal a fin de colaborar y facilitar el consumo de dietas veganas
-                </h5>
-            </h2>
-            <h2 class="nosotros">
-                REDES SOCIALES
-                <h5 class="contNosotros">
-                    Instagram: @rica_mantekilla
-                </h5>
-                <h5 class="contNosotros">
-                    Facebook: Rica Mantekilla
-                </h5>
-            </h2>
+            <div class="objetivosNosotros">
+                <div>
+                    <p class="h3 textoPrincipal">Visión</p>
+                    <p class="h5 textoSecundario">Buscamos contribuir a una vida más saludable y conciente y al alcance de todos, respetando y cuidando las diversas formas de vida de nuestro ecosistema al ofrecer productos libres de cualquier tipo de crueldad animal y evitando el uso de plásticos contaminantes para el planeta.</p>
+                </div>
+                <div class="objetivosMision">
+                    <p class="h3 textoPrincipal">Misión</p>
+                    <p class="h5 textoSecundario">Buscamos posicionarnos como líder en mantequillas de maní, que produzca un ejemplo modelo sobre la producción sostenible de alimentos. Asimismo, impactar en los hogares en el mejoramiento de hábitos alimenticios con productos sin origen animal a fin de colaborar y facilitar el consumo de dietas veganas.</p>
+                </div>
+            </div>
         </section>
-    </main>
-    <footer>
-        <nav>
-            <ul>
-                <li> 
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="productos.html">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="promociones.html">PROMOCIONES</a>
-                </li>
-                <li>
-                    <a href="recetas.html">RECETAS</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">NOSOTROS</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <section>
+            <div class="terminosNosotros">
+                <div>
+                    <p class="h3 textoPrincipal">PolÍtica de Envíos</p>
+                    <p class="h5 textoSecundario">Todas la compras superiores a 35.000 clp seran despachadas gratis a todo Chile. Los envíos se realizaran en la Región Metropolitana y de Valparaíso en 24 horas hábiles. Mientras que al resto de Chile se realizaran en 72 horas hábiles. </p>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <nav class="fondoFooter"> 
+                <div class="container-fluid">
+                    <div class="row p-5">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="navbar-brand" href="../index.html">
+                                <img src="../images/logoooo.jpg" alt="" width="200px" height="90px">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">ÍTEMS</p>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="../index.html">Inicio</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./productos.html">Productos</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./promociones.html">Promociones</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./recetas.html">Recetas</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./nosotros.html">Nosotros</a>
+                                </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">POLÍTICAS</p>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./nosotros.html">PolÍtica de envíos</a>
+                                </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">REDES SOCIALES</p>
+                                <div class="mb-2"> 
+                                    <img src="../images/instagram.png" alt="instagram">
+                                    <a class="text-decoration-none text-black textoSecundario" href="#">Instagram</a> 
+                                </div>
+                                <div class="mb-2"> 
+                                    <img src="../images/facebook.png" alt="Facebook">
+                                    <a class="text-decoration-none text-black textoSecundario" href="#">Facebook</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </div>
 </body>
 </html>

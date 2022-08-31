@@ -7,82 +7,165 @@
     <meta name="keywords" content="Recetas Veganas, Mantequilla de maní">
     <meta name="description" content="Las mejores recetas con mantequilla de maní. 100% veganas.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Recetas</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light amarillo">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../images/logo.jpg" alt="" class="w-75">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse justify-content-end m-5" id="navbarNavAltMarkup">
-                <div class="navbar-nav menuHeader">
-                    <a class="nav-link active" aria-current="page" href="../index.html">INCIO</a>
-                    <a class="nav-link active" href="./productos.html">PRODUCTOS</a>
-                    <a class="nav-link active" href="./promociones.html">PROMOCIONES</a>
-                    <a class="nav-link active" href="./recetas.html">RECETAS</a>
-                    <a class="nav-link active" href="./nosotros.html">NOSOTROS</a>
-                </div>
-            </div>
-            </div>
-        </nav>
-    </header>
-
-    <main class="lasRecetas">
-        <section class="d-flex justify-content-center">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                    </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h4 class="card-title">GALLETAS CON RICA MANTEKILLA</h4>
-                        <h5 class="car-text">INGREDIENTES</h5>
-                            <p class="card-text">190 grs de tú Rica Mantekilla preferida</p>
-                            <p class="card-text">1 taza de azúcar</p>
-                            <p class="card-text">1 huevo</p>
-                            <p class="card-text">100 grs de chips de chocolate vegano</p>
-                        <h5 class="car-text">PASOS</h5>
-                            <p class="card-text">Mezclar todos los ingredientes en una fuente, hazta quedar tomo homogeneo.</p>
-                            <p class="card-text">Formar bolitas con la sustancia.</p>
-                            <p class="card-text">Presionar hasta darle una forma de galleta.</p>
-                            <p class="card-text">Precalentar el horno a 180 grados y hornear por 10 minutos.</p>
-                            <p class="card-text">Dejar enfriar antes de consumir</p>
-                            <p class="card-text"><small class="text-muted">VEGETARIANO</small></p>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fondoHeader">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../images/logoooo.jpg" alt="" width="200px" height="90px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end fondoHeader" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RICA MANTEKILLA</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./productos.html">PRODUCTOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./promociones.html">PROMOCIONES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./recetas.html">RECETAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./nosotros.html">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <img src="../images/carrito.png" alt="compras">
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-        </section>
-    </main>
+            </nav>
+        </header>
 
-<footer>
-    <nav>
-        <ul>
-            <li> 
-                <a href="../index.html">INICIO</a>
-            </li>
-            <li>
-                <a href="productos.html">PRODUCTOS</a>
-            </li>
-            <li>
-                <a href="promociones.html">PROMOCIONES</a>
-            </li>
-            <li>
-                <a href="recetas.html">RECETAS</a>
-            </li>
-            <li>
-                <a href="nosotros.html">NOSOTROS</a>
-            </li>
-        </ul>
-    </nav>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <main class="cardRecetas">
+            <section class="d-flex justify-content-around">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center recetasPading" data-aos="fade-right">
+                        <div class="card mb-3 interiorRecetas" style="max-width: 540px; ">
+                            <div class="row g-0">
+                                <div class=" col-sm-12 col-md-6 col-lg-6">
+                                    <img src="../images/galleta.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <div class="card-body">
+                                    <h4 class="card-title textoPrincipal">GALLETAS CON RICA MANTEKILLA</h4>
+                                    <h5 class="car-text textoPrincipal">INGREDIENTES</h5>
+                                        <p class="card-text textoSecundario">190 grs de tú Rica Mantekilla preferida</p>
+                                        <p class="card-text textoSecundario">1 taza de azúcar</p>
+                                        <p class="card-text textoSecundario">1 huevo</p>
+                                        <p class="card-text textoSecundario">100 grs de chips de chocolate vegano</p>
+                                    <h5 class="car-text textoPrincipal">PASOS</h5>
+                                        <p class="card-text textoSecundario">Mezclar todos los ingredientes en una fuente, hazta quedar tomo homogéneo.</p>
+                                        <p class="card-text textoSecundario">Formar bolitas con la sustancia.</p>
+                                        <p class="card-text textoSecundario">Presionar hasta darle una forma de galleta.</p>
+                                        <p class="card-text textoSecundario">Precalentar el horno a 180 grados y hornear por 10 minutos.</p>
+                                        <p class="card-text textoSecundario">Dejar enfriar antes de consumir</p>
+                                        <p class="card-text textoSecundario"><small class="text-muted">VEGETARIANO</small></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center recetasPading" data-aos="fade-left">
+                        <div class="card mb-3 interiorRecetas" style="max-width: 540px; ">
+                            <div class="row g-0">
+                                <div class=" col-sm-12 col-md-6 col-lg-6">
+                                    <img src="../images/bonobon.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <div class="card-body">
+                                    <h4 class="card-title textoPrincipal">BON O BON CASEROS</h4>
+                                    <h5 class="car-text textoPrincipal">INGREDIENTES</h5>
+                                        <p class="card-text textoSecundario">300 grs de tú Rica Mantekilla preferida</p>
+                                        <p class="card-text textoSecundario">2 1/2 de azucar flor</p>
+                                        <p class="card-text textoSecundario">1 taza de mantequilla vegetal</p>
+                                        <p class="card-text textoSecundario">50 grs de chips de chocolate vegano</p>
+                                    <h5 class="car-text textoPrincipal">PASOS</h5>
+                                        <p class="card-text textoSecundario">Mezclar la mantequilla vegetal, azúcar flor y tú Rica Mantekilla preferida, hazta quedar tomo homogéneo.</p>
+                                        <p class="card-text textoSecundario">Formar bolitas con la sustancia de no más de 4 cm y refigeralas.</p>
+                                        <p class="card-text textoSecundario">Pasado 30 minutos refigerado añade el chocolate previamente derretido cubriendo toda la superficie</p>
+                                        <p class="card-text textoSecundario">Refigera las bolitas por 30 minutos.</p>
+                                        <p class="card-text textoSecundario">y listo! disfruta tus bon o bon casero.</p>
+                                        <p class="card-text textoSecundario"><small class="text-muted">VEGANO</small></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <nav class="fondoFooter"> 
+                <div class="container-fluid">
+                    <div class="row p-5">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="navbar-brand" href="../index.html">
+                                <img src="../images/logoooo.jpg" alt="" width="200px" height="90px">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">ÍTEMS</p>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="../index.html">Inicio</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./productos.html">Productos</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./promociones.html">Promociones</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./recetas.html">Recetas</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./nosotros.html">Nosotros</a>
+                                </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">POLÍTICAS</p>
+                                <div class="mb-2"> 
+                                    <a class="text-decoration-none text-black textoSecundario" href="./nosotros.html">Política de envíos</a>
+                                </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">REDES SOCIALES</p>
+                                <div class="mb-2"> 
+                                    <img src="../images/instagram.png" alt="instagram">
+                                    <a class="text-decoration-none text-black textoSecundario" href="#">Instagram</a>
+                                </div>
+                                <div class="mb-2"> 
+                                    <img src="../images/facebook.png" alt="Facebook">
+                                    <a class="text-decoration-none text-black textoSecundario" href="#">Facebook</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </div>
 </body>
 </html>

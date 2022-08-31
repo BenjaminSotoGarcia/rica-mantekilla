@@ -7,116 +7,198 @@
     <meta name="keywords" content="Promociones, Pack de mantequillas de maní">
     <meta name="description" content="Promociones para el alcance de cualquier gusto y bolsillo">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Promociones</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light amarillo">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../images/logo.jpg" alt="" class="w-75">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse justify-content-end m-5" id="navbarNavAltMarkup">
-                <div class="navbar-nav menuHeader">
-                    <a class="nav-link active" aria-current="page" href="../index.html">INCIO</a>
-                    <a class="nav-link active" href="./productos.html">PRODUCTOS</a>
-                    <a class="nav-link active" href="./promociones.html">PROMOCIONES</a>
-                    <a class="nav-link active" href="./recetas.html">RECETAS</a>
-                    <a class="nav-link active" href="./nosotros.html">NOSOTROS</a>
+    <div class="grillaPromociones">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fondoHeader">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../images/logoooo.jpg" alt="" width="200px" height="90px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end fondoHeader" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RICA MANTEKILLA</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./productos.html">PRODUCTOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./promociones.html">PROMOCIONES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./recetas.html">RECETAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./nosotros.html">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <img src="../images/carrito.png" alt="compras">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-        </nav>
-    </header>
-<!-- ME FALTAN TODAS LAS FOTOS DE LAS PROMOCIONES -->
-    <main class="container lasPromos">
-        <section class="row row-cols-2 d-flex justify-content-center">
-            <div class="card col m-3" data-aos="flip-down" style="width: 18rem;">
-                <img src="../images/tradicional.jpg" class="card-img-top p-3" alt="PROMOCION 1">
-                <div class="card-body">
-                    <h5 class="card-title">PROMOCIÓN 1</h5>
-                    <p class="card-text">ESCOGE TRES MANTEKILAS ENTRE NUESTROS SABORES TRADIONAL O CRUNCHY</p>
-                    <p class="card-text">FRASCOS 210 CC</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-            <div class="card col m-3" data-aos="flip-down" style="width: 18rem;">
-                <img src="../images/tradicional.jpg" class="card-img-top p-3" alt="mantekilla oreo">
-                <div class="card-body">
-                    <h5 class="card-title">PROMOCIÓN 2</h5>
-                    <p class="card-text">LLEVA NUESTRAS 3 REINAS. MANTEKILLA TRADICIONAL , OREO Y CHOCOLATE. (OPCION DE CAMBIAR TRADIONAL POR CRUNCHY)</p>
-                    <p class="card-text">FRASCOS 210 CC</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-            <div class="card col m-3" data-aos="flip-down" style="width: 18rem;">
-                <img src="../images/tradicional.jpg" class="card-img-top p-3" alt="mantekilla crunchy">
-                <div class="card-body">
-                    <h5 class="card-title">PROMOCIÓN 3</h5>
-                    <p class="card-text">ESCOGE  TRES MANTEKILLAS A LIBRE ELECCION Y SABOR</p>
-                    <p class="card-text">FRASCOS 210 CC</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-            <div class="card col m-3" data-aos="flip-down" style="width: 18rem;">
-                <img src="../images/tradicional.jpg" class="card-img-top p-3" alt="mantekilla chocolate">
-                <div class="card-body">
-                    <h5 class="card-title">PROMOCIÓN 4</h5>
-                    <p class="card-text">ESCOGE TRES MANTEKILAS ENTRE NUESTROS SABORES TRADIONAL O CRUNCHY</p>
-                    <p class="card-text">FRASCOS 450 CC</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-            <div class="card col m-3" data-aos="flip-down" style="width: 18rem;">
-                <img src="../images/tradicional.jpg" class="card-img-top p-3" alt="mantekilla chocolate">
-                <div class="card-body">
-                    <h5 class="card-title">PROMOCIÓN 5</h5>
-                    <p class="card-text">LLEVA NUESTRAS 3 REINAS. MANTEKILLA TRADICIONAL , OREO Y CHOCOLATE. (OPCION DE CAMBIAR TRADIONAL POR CRUNCHY)</p>
-                    <p class="card-text">FRASCOS 450 CC</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-            <div class="card col m-3" data-aos="flip-down" style="width: 18rem;">
-                <img src="../images/tradicional.jpg" class="card-img-top p-3" alt="mantekilla chocolate">
-                <div class="card-body">
-                    <h5 class="card-title">PROMOCIÓN 6</h5>
-                    <p class="card-text">ESCOGE  TRES MANTEKILLAS A LIBRE ELECCION Y SABOR</p>
-                    <p class="card-text">FRASCOS 450 CC</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </section>    
-    </main>
+            </nav>
+        </header>
 
+        <main class="cardPromociones"> 
+            <div>
+                <p class="h3 textoPrincipal subtituloPromociones">PROMOCIONES EN 210CC:</p>
+            </div>
+            <section class="d-flex justify-content-around">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center promocionesPading" data-aos="flip-right">
+                        <div class="card interiorPromociones" style="width: 18rem;">
+                            <img src="../images/promocion1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title textoPrincipal">PROMOCION 1</h5>
+                                <p class="card-text textoSecundario">ESCOGE TRES MANTEKILAS ENTRE NUESTROS SABORES TRADIONAL O CRUNCHY</p>
+                                <p class="card-text textoSecundario">210 CC</p>
+                                <h4 class="card-text textoPrincipal">8.000 clp</h4>
+                                <a href="#" class="btn btn-outline-success textoPrincipal">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center promocionesPading" data-aos="flip-right">
+                        <div class="card interiorPromociones" style="width: 18rem;">
+                            <img src="../images/promocion2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title textoPrincipal">PROMOCION 2</h5>
+                                <p class="card-text textoSecundario">LLEVA NUESTRAS 3 REINAS. MANTEKILLA TRADICIONAL, OREO Y CHOCOLATE.</p>
+                                <p class="card-text textoSecundario"><small class="text-muted">OPCIÓN DE CAMBIAR TRADIONAL POR CRUNCHY</small></p>
+                                <p class="card-text textoSecundario">210 CC</p>
+                                <h4 class="card-text textoPrincipal">9.000 clp</h4>
+                                <a href="#" class="btn btn-outline-success textoPrincipal">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center promocionesPading" data-aos="flip-right">
+                        <div class="card interiorPromociones" style="width: 18rem;">
+                            <img src="../images/promocion3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title textoPrincipal">PROMOCION 3</h5>
+                                <p class="card-text textoSecundario">ESCOGE TRES MANTEKILLAS A LIBRE ELECCIÓN Y SABOR</p>
+                                <p class="card-text textoSecundario">210 CC</p>
+                                <h4 class="card-text textoPrincipal">9.500 clp</h4>
+                                <a href="#" class="btn btn-outline-success textoPrincipal">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <div>
+                <p class="h3 textoPrincipal subtituloPromociones">PROMOCIONES EN 450CC:</p>
+            </div>
+            <section class="d-flex justify-content-around">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center promocionesPading" data-aos="flip-right">
+                        <div class="card interiorPromociones" style="width: 18rem;">
+                            <img src="../images/promocion4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title textoPrincipal">PROMOCION 4</h5>
+                                <p class="card-text textoSecundario">ESCOGE TRES MANTEKILAS ENTRE NUESTROS SABORES TRADIONAL O CRUNCHY</p>
+                                <p class="card-text textoSecundario">450 CC</p>
+                                <h4 class="card-text textoPrincipal">16.000 clp</h4>
+                                <a href="#" class="btn btn-outline-success textoPrincipal">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center promocionesPading" data-aos="flip-right">
+                        <div class="card interiorPromociones" style="width: 18rem;">
+                            <img src="../images/promocion5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title textoPrincipal">PROMOCION 5</h5>
+                                <p class="card-text textoSecundario">LLEVA NUESTRAS 3 REINAS. MANTEKILLA TRADICIONAL, OREO Y CHOCOLATE.</p>
+                                <p class="card-text textoSecundario"><small class="text-muted">OPCIÓN DE CAMBIAR TRADIONAL POR CRUNCHY</small></p>
+                                <p class="card-text textoSecundario">450 CC</p>
+                                <h4 class="card-text textoPrincipal">18.000 clp</h4>
+                                <a href="#" class="btn btn-outline-success textoPrincipal">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center promocionesPading" data-aos="flip-right">
+                        <div class="card interiorPromociones" style="width: 18rem;">
+                            <img src="../images/promocion6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title textoPrincipal">PROMOCION 6</h5>
+                                <p class="card-text textoSecundario">ESCOGE TRES MANTEKILLAS A LIBRE ELECCIÓN Y SABOR</p>
+                                <p class="card-text textoSecundario">450 CC</p>
+                                <h4 class="card-text textoPrincipal">19.000 clp</h4>
+                                <a href="#" class="btn btn-outline-success textoPrincipal">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-
-
-    <footer>
-        <nav>
-            <ul>
-                <li> 
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="productos.html">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="promociones.html">PROMOCIONES</a>
-                </li>
-                <li>
-                    <a href="recetas.html">RECETAS</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">NOSOTROS</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <footer>
+            <nav class="fondoFooter">
+                <div class="container-fluid">
+                    <div class="row p-5">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <a class="navbar-brand" href="../index.html">
+                                <img src="../images/logoooo.jpg" alt="" width="200px" height="90px">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">ÍTEMS</p>
+                                <div class="mb-2">
+                                    <a class="text-decoration-none text-black textoSecundario" href="../index.html">Inicio</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-decoration-none text-black textoSecundario" href="./productos.html">Productos</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-decoration-none text-black textoSecundario" href="./promociones.html">Promociones</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-decoration-none text-black textoSecundario" href="./recetas.html">Recetas</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-decoration-none text-black textoSecundario" href="./nosotros.html">Nosotros</a>
+                                </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">POLÍTICAS</p>
+                                <div class="mb-2">
+                                    <a class="text-decoration-none text-black textoSecundario" href="./nosotros.html">Política de envíos</a>
+                                </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <p class="h4 mb-3 textoPrincipal">REDES SOCIALES</p>
+                                <div class="mb-2">
+                                    <img src="../images/instagram.png" alt="instagram">
+                                    <a class="text-decoration-none text-black textoSecundario" href="#">Instagram</a>
+                                </div>
+                                <div class="mb-2">
+                                    <img src="../images/facebook.png" alt="Facebook">
+                                    <a class="text-decoration-none text-black textoSecundario" href="#">Facebook</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </div>
 </body>
 </html>

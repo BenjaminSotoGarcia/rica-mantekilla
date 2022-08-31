@@ -1,3 +1,14 @@
-.lasPromos{
-    @include medidas;
+.cardPromociones{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.promocionesPading{
+    padding: 30px ;
+}
+.interiorPromociones{
+    @include colorcard;
+}
+.subtituloPromociones{
+    padding-left: 6%;
+    padding-top: 2%;
 }
